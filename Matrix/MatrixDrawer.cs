@@ -17,7 +17,7 @@ namespace Matrix
         /// <param name="m11">Det fjärde elementet (rad 2, kolumn 2)</param>
         public static void Draw2x2Matrix(float m00, float m01, float m10, float m11)
         {
-            const int VALUE_LENGTH = 4;
+            const int VALUE_LENGTH = 5;
             const int SPACER = 2;
             const int N = VALUE_LENGTH * 2 + SPACER + 1;
 
